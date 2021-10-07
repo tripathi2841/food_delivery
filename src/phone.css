@@ -1,0 +1,84 @@
+@media (max-width:1050px)
+{
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .navbar ul li a{
+        font-size: 1.0rem;
+        padding: 0px 7px;
+        padding-bottom: 8px;
+    }
+    
+    .home{
+        height: 240px;
+    }
+    
+    .home h1{
+        
+        font-size: 1.8rem;
+       
+    }
+    .home p{
+        font-size: 1.0rem;
+    }
+    
+    #service{
+        flex-direction: column;
+    }
+    
+    #clients{
+        flex-wrap: wrap;
+    }
+    .client-item img{
+        width: 60px;
+        height: 60px;
+       
+    
+    }
+    
+    #contact-section{
+        margin-top: 30px;
+       
+    }
+    
+    #contact-section h1{
+       
+        font-size: 1.8rem;
+        
+    
+    }
+    
+    .form-group input{
+        width: 250px;
+        margin: 7px 7px;
+        padding: 7px 7px;
+        border-radius: 8px;
+    }
+    
+    .form-group textarea{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: 8px;
+       
+        border-radius: 8px;
+        font-size: 1.0rem;
+        columns: 20;
+       
+        padding: 7px 7px;
+    }
+    .bt{
+      
+        padding:7px 8px;
+        
+        font-size: 1.0rem;
+        margin-left: 150px;
+      
+      
+       
+       
+    
+    }
+    
+}

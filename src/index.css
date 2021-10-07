@@ -11,3 +11,237 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ /* CSS for navbar */
+
+.navbar{
+  display: flex;
+  position: sticky;
+  top: 0px;
+}
+.navbar::before{
+  content: "";
+  background-color: black;
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.6;
+}
+.navbar ul{
+  display: flex;
+  list-style: none;
+  margin: 18px 18px;
+  
+}
+.navbar ul li a{
+  text-decoration: none;
+  padding: 10px 25px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+  display: block;
+  border-radius: 20px;
+}
+
+.navbar ul li a:hover{
+  background-color:white;
+  color: black;
+}
+
+#logo img{
+  width: 70px;
+  height: 70px;
+  margin-top: 4px;
+}
+
+/* Home section */
+
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 270px;
+  
+}
+.home h1{
+  color: white;
+  font-size: 3.0rem;
+  text-align: center;
+  font-weight: bold;
+}
+.home p{
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.btn{
+  border: 2px solid red;
+  padding:7px 8px;
+  margin: 17px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: brown;
+  color: white;
+}
+
+.home::before{
+  content: "";
+ background: url('./food2.jpg');
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 45%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+#hd1{
+  text-align: center;
+  font-size: 3.0rem;
+  font-weight: bold;
+}
+
+/* CSS for Services */
+#service{
+  display: flex;
+  justify-content:space-around;
+  
+}
+
+.box{
+  background-color:rgb(231, 224, 224);
+  border: 3px solid brown;
+  margin: 12px 12px;
+  border-radius:20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 15px;
+}
+.box h1{
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+.box p{
+  font-size: 1.0rem;
+  font-weight: bold;
+}
+.box img{
+  width: 130px;
+  height: 120px;
+}
+
+/* CSS for clients section */
+#clients-section{
+  text-align: center;
+  font-size: 2.0rem;
+  font-weight: bold;
+
+}
+#clients{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.client-item img{
+  width: 100px;
+  height: 100px;
+  margin: 40px 20px;
+
+}
+
+#clients-section::before{
+  content: "";
+ background: url('./food1.jpeg');
+  position: absolute;
+ left: 0px;
+  height: 45%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+/* CSS for Contact section */
+#contact-section{
+  margin-top: 70px;
+  position: relative;
+}
+
+#contact-section h1{
+  text-align: center;
+  font-size: 3.0rem;
+  font-weight: bold;
+
+}
+#contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.form-group input{
+  width: 400px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 2px solid brown;
+}
+
+.form-group textarea{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border: 2px solid brown;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 10px 10px;
+}
+.bt{
+  border: 2px solid red;
+  padding:7px 8px;
+
+ 
+ 
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: brown;
+  color: white;
+
+}
+
+#contact-section::before{
+  content: "";
+ background: url('./contact.webp');
+  position: absolute;
+ left: 0px;
+  height:100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+/* footer */
+.footer{
+  background-color: rgb(22, 22, 22);
+}
+.foot{
+  color: white;
+ text-align: center;
+}
