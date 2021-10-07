@@ -18,16 +18,16 @@ const Appp = () => {
             <nav className="navbar">
                
                 <ul>
-                    <li><a href="ht01.html">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#clients-section">About us</a></li>
+                    <li><a href="#contact-section">Contact us</a></li>
                 </ul>
             </nav>
 
             {/* Home section */}
 
-            <section className="home">
+            <section className="home" id = "home">
                 <h1>Welcome to my food industry</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit, it is an good for health </p>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
